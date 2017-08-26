@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="anaaya.anaayalearningapp.MainActivity">
+    <item
+        android:id="@+id/logout_menu"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="always" />
+
+    <item
+    android:id="@+id/contact_papa"
+    android:orderInCategory="100"
+    android:title="@string/action_contactpapa"
+    app:showAsAction="always" />
+    <item
+
+        android:id="@+id/contact_mumma"
+        android:orderInCategory="100"
+        android:title="@string/action_contactmumma"
+        app:showAsAction="always" />
+
+</menu>
